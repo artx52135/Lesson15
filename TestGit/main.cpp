@@ -16,6 +16,13 @@ int LaterInYear(int d1, int m1, int d2, int m2)
 {
 
 }
+//Определяет кол-во дней в году
+int DaysInYear(int y)
+{
+	if (IsLeapYear(y))
+		return 366;
+	else return 365;
+}
 int main()
 {
     std::cout << "Hello World!\n";
