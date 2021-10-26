@@ -33,6 +33,11 @@ int DaysInYearRange(int y1,int y2)
 	}
 	return sum;
 }
+//Считаек кол-во секунд в данном кол-ве часов
+int SeconsInHours(int hour)
+{
+	return hour * 3600;
+}
 int main()
 {
     std::cout << "Hello World!\n";
