@@ -11,11 +11,7 @@ bool IsLeapYear(int y)
 	}
 	else return true;
 }
-//Выводит кол-во секунд в минутах
-int SecondsInMinute(int min)
-{
-	return 60 * min;
-}
+
 int main()
 {
     std::cout << "Hello World!\n";
