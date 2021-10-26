@@ -23,6 +23,16 @@ int DaysInYear(int y)
 		return 366;
 	else return 365;
 }
+//Определяет кол-во дней в годовом промежутке
+int DaysInYearRange(int y1,int y2)
+{
+	int sum = 0;
+	for (int  t= y1; t<=y2; t++)
+	{
+		sum += DaysInYear(y1);
+	}
+	return sum;
+}
 int main()
 {
     std::cout << "Hello World!\n";
