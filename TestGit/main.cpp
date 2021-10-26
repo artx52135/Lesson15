@@ -11,7 +11,11 @@ bool IsLeapYear(int y)
 	}
 	else return true;
 }
+//Проверяет какой из двух дней ближе к Новому году
+int LaterInYear(int d1, int m1, int d2, int m2)
+{
 
+}
 int main()
 {
     std::cout << "Hello World!\n";
